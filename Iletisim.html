@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+</head>
+<body>
+    <a href="/Anasayfa.html">Ana Sayfa</a>
+    <h1>Görüşleriniz bizim için çok değerli</h1>
+    <h2>Bize ulaşmak için lütfen aşağıdaki formu doldurup gönderiniz. Zaman ayırdığınız için teşekkürler.</h2>
+    <form action="/Iletisim.html">
+        <label>Adı Soyadı</label>
+        <input type="text" placeholder="Ad Soyad" required>
+        <br>
+        <label>Telefon :</label>
+        <input type="number" min="0" maxlength="10">
+        <br>
+        <label>Email : </label>
+        <input type="email">
+        <br>
+        <label>Tarih :</label>
+        <input type="date">
+        <br>
+        <label>Ek :</label>
+        <input type="file" maxlength="1024">
+        <br>
+        <label>Lütfen Yazınız </label>
+        <input type="text" placeholder="Görüşlerinizi 1000 karakteri geçmeyecek şekilde yazabilirsiniz." maxlength="1002">
+        
+        <button type="submit" value="Gönder">
+        <button type="reset">Temizle</button>
+
+    </form>
+    <footer>
+        <p>Tüm hakları saklıdır.</p>
+        Copyright 2022 Arikan &copy;
+    </footer>
+</body>
+</html>
